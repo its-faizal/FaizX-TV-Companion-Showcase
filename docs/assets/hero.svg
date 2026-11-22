@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+<title id="title">FaizX TV Companion — Your TV. In your hands.</title><desc id="desc">A restrained dark banner with mint typography and an abstract circular control connected to a television outline.</desc>
+<rect width="1280" height="480" rx="24" fill="#080d10"/>
+<path d="M48 432H1232" stroke="#243640"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="64" y="76" fill="#9fe8da" font-size="16" letter-spacing="3">FAIZX / TV COMPANION</text>
+<text x="60" y="171" fill="#f1f1f3" font-size="64" font-weight="600" letter-spacing="-2">Your TV.</text><text x="60" y="248" fill="#f1f1f3" font-size="64" font-weight="600" letter-spacing="-2">In your hands.</text>
+<text x="64" y="308" fill="#a7bac3" font-size="22">Control. Explore. Make it yours.</text>
+<text x="64" y="393" fill="#9fe8da" font-size="14" letter-spacing="2">ANDROID TV · GOOGLE TV · ANDROID PHONE</text></g>
+<g fill="none" stroke="#293d47" stroke-width="2"><rect x="849" y="76" width="328" height="192" rx="16"/><path d="M1013 268v24m-48 0h96"/><circle cx="863" cy="316" r="91"/><circle cx="863" cy="316" r="64"/><circle cx="863" cy="316" r="31"/>
+<path d="M955 316h123a30 30 0 0 0 30-30v-18" stroke="#9fe8da" stroke-opacity=".55"/></g>
+<g stroke="#a7bac3" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m855 249 8-8 8 8m-8 142-8-8m8 8 8-8m-75-75-8 8 8 8m142-16 8 8-8 8"/></g><circle cx="863" cy="316" r="7" fill="#9fe8da"/><circle cx="1108" cy="268" r="4" fill="#9fe8da"/>
+</svg>

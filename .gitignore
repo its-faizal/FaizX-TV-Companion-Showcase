@@ -1,0 +1,9 @@
+*.apk
+*.aab
+*.jks
+*.keystore
+*.pem
+*.key
+.env*
+.dev.vars*
+.DS_Store
