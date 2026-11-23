@@ -2,9 +2,9 @@
 
 <p align="center"><img src="docs/assets/hero.svg" alt="FaizX TV Companion. Your TV. In your hands." width="1200"></p>
 
-<p align="center"><strong>A thoughtful Android companion for your TV.</strong><br>Navigate your screen, type from your phone, organise apps and move files in one focused workspace.</p>
+<p align="center"><strong>One considered space for your TV.</strong><br>Navigate your screen, type from your phone, organise apps and move files in one focused workspace.</p>
 
-<p align="center"><a href="#the-interface">Interface</a> · <a href="#start-with-your-tv">Get started</a> · <a href="docs/features.md">Explore features</a> · <a href="https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases">Releases</a></p>
+<p align="center"><a href="#the-interface">Interface</a> · <a href="#start-with-your-tv">Get started</a> · <a href="docs/features.md">Explore features</a> · <a href="docs/security.md">Security</a> · <a href="https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases">Downloads</a></p>
 
 ---
 
@@ -58,6 +58,10 @@ FaizX brings remote control and TV management together without putting every too
 
 [Full feature guide →](docs/features.md)
 
+## Thoughtful by design
+
+A quiet dark palette, clear hierarchy and a circular control surface keep the remote focused. Open the workspace for app management, storage and transfers; return to the controls without changing the visual language.
+
 ## Built around your permission
 
 - **You approve TV access.** Debugging authorisation is separate from normal native remote pairing.
@@ -75,11 +79,13 @@ FaizX does not claim compatibility with every proprietary smart-TV operating sys
 
 ## About this repository
 
-This is the product showcase for FaizX TV Companion. It contains product information, interface previews and user guides. Application source, backend code, build tools, credentials and internal development records are not hosted here.
+This is the product showcase for FaizX TV Companion. It contains product information, interface previews and user guides. The file tree contains no application source, backend configuration, credentials or internal development records. Matching source packages accompany published software releases as separate downloads where required by their licences.
 
 ## Downloads & support
 
-No APK is included in this repository. Signed downloads, when made available here, will be listed under [Releases](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases). Do not treat interface previews as a downloadable release.
+**Release candidate: 1.0.1.** A public APK download is not available yet. Production-signed builds and their SHA-256 checksums will appear under [Releases](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases) after verification.
+
+Use only the signed APK for a normal installation. Keep the existing app installed when updating: Android requires a compatible package and signing certificate to preserve its data. Review the [security and verification notes](docs/security.md) and [changes](CHANGELOG.md) before installing.
 
 For help connecting a TV, start with the [connection guide](docs/connecting.md). When reporting a problem, include the app version, TV model and steps to reproduce it. Remove device addresses, pairing codes, personal information and private logs before sharing a report.
 
