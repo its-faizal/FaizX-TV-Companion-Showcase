@@ -22,9 +22,19 @@ The reviewed implementation passed 331 transport-module tests and 78 focused app
 
 The dependency checks returned no advisories for the reviewed 91-package backend lockfile and 19 explicitly versioned direct Android dependencies. This does not cover every transitive Android dependency or guarantee that no vulnerability exists.
 
+### Release 1.0.1
+
+The production-signed APK passed independent Android signature and 16 KB packaging-alignment checks. Its application entries match the verified unsigned build; signing added only signature metadata. The matching application-source manifest and release checksums were also verified.
+
+- **Package:** `tv.faizx.companion` · **Version code:** `39`.
+- **Signing-certificate SHA-256:** `f763350070c62d7e18e7153144353912a1c36feb5935458ffda3a63f983e3eb9`.
+- **APK SHA-256:** `14fd7aacbb53c8545795c86bcee6d8a8872659364ec3cc84ee6c5d158fb3d040`.
+
+Download the [verification metadata](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/RELEASE-VERIFICATION.json) and [checksums](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/SHA256SUMS.txt) with the release. Packaging alignment does not establish that every bundled native component supports every device's memory-page configuration.
+
 ## Install with confidence
 
-1. Download the production-signed APK from this repository's Releases page when available.
+1. Download the production-signed APK from this repository's [Releases page](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases).
 2. Compare its SHA-256 against the checksum published with that exact release.
 3. Install through Android's package installer and review the requested permissions.
 4. Approve only your own phone on the intended TV. Preserve the installed app when updating so its pairing state can be retained.
@@ -39,4 +49,4 @@ For a suspected security problem, share the app version, affected feature and a 
 
 ## Source availability
 
-This app includes GPL-covered components. The relevant notices are retained in the application. Matching source is supplied separately with binary releases; it is not placed in the showcase file tree. Keys, private release credentials and internal records are excluded.
+This app includes GPL-covered components. The relevant notices are retained in the application. Download the [matching application source for 1.0.1](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/FaizX-Companion-v1.0.1-source.zip) from the release assets. Application source is not placed in the showcase file tree; GitHub's automatic “Source code” archives contain only the showcase. Keys, private release credentials and internal records are excluded.

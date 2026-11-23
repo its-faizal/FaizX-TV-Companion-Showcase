@@ -6,6 +6,8 @@
 
 <p align="center"><a href="#the-interface">Interface</a> · <a href="#start-with-your-tv">Get started</a> · <a href="docs/features.md">Explore features</a> · <a href="docs/security.md">Security</a> · <a href="https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases">Downloads</a></p>
 
+<p align="center"><a href="https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/FaizX-Companion-v1.0.1-signed.apk"><strong>Download FaizX Companion 1.0.1</strong></a><br>Android 8.0+ · 13.5 MB · Production-signed</p>
+
 ---
 
 ## Everyday control, with room to do more
@@ -83,7 +85,9 @@ This is the product showcase for FaizX TV Companion. It contains product informa
 
 ## Downloads & support
 
-**Release candidate: 1.0.1.** A public APK download is not available yet. Production-signed builds and their SHA-256 checksums will appear under [Releases](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases) after verification.
+**Available now: 1.0.1**, released 23 November 2026. Download the [production-signed APK](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/FaizX-Companion-v1.0.1-signed.apk) for Android 8.0 or newer.
+
+[Release notes](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/tag/v1.0.1) · [SHA-256 checksums](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/SHA256SUMS.txt) · [Signature & packaging verification](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/RELEASE-VERIFICATION.json) · [Matching application source](https://github.com/its-faizal/FaizX-TV-Companion-Showcase/releases/download/v1.0.1/FaizX-Companion-v1.0.1-source.zip)
 
 Use only the signed APK for a normal installation. Keep the existing app installed when updating: Android requires a compatible package and signing certificate to preserve its data. Review the [security and verification notes](docs/security.md) and [changes](CHANGELOG.md) before installing.
 
