@@ -11,13 +11,14 @@
 | **Updates** | The private update path checks package identity, signing-certificate identity, file size and SHA-256 metadata before installation. Android enforces signature compatibility for upgrades. |
 | **App imports** | Staged and extracted APKs have streamed byte and file-count limits, safe destination checks and partial-file cleanup. |
 | **Images** | Large panoramic and portrait images are sampled before decoding to avoid unnecessary memory pressure. Normal 4K input remains unsampled. |
+| **Diagnostic reports** | No fixed email recipient; attachments are carried through Android’s chooser to the user-selected destination. |
 | **App boundaries** | Internal activities, update components and the sharing provider are not exported. Shared files are restricted to designated cache paths. |
 
 Transport capabilities vary by TV and connection method. A working remote connection does not grant every device-management permission, and firmware restrictions still apply.
 
 ## Verification record
 
-The reviewed implementation passed 331 transport-module tests and 49 focused app tests covering updates, protected key storage, TV access, PIN handling, input validation, imports and image sampling. These are local regression results, not a production penetration-test certificate. Release-specific packaging checks are recorded with each published build.
+The reviewed implementation passed 331 transport-module tests and 78 focused app tests covering updates, protected key storage, TV access, PIN handling, input validation, imports, image sampling and diagnostic sharing. These are local regression results, not a production penetration-test certificate. Release-specific packaging checks are recorded with each published build.
 
 The dependency checks returned no advisories for the reviewed 91-package backend lockfile and 19 explicitly versioned direct Android dependencies. This does not cover every transitive Android dependency or guarantee that no vulnerability exists.
 
